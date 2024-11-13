@@ -1,0 +1,171 @@
+[
+    {
+      "number": 1,
+      "image": "./img/1.png",
+      "intro": "Bienvenue dans le calendrier de l'Avent !",
+      "content": "Aujourd'hui, c'est dimanche, reposes toi, et surtout commence ce mois avec enthousiasme ! Chaque jour, tu découvriras une nouvelle anecdote, un projet ou une pensée inspirante pour te motiver. Prêt à coder ?",
+      "conclusion": "Chaque jour est une nouvelle occasion d'apprendre et de progresser !"
+    },
+    {
+      "number": 2,
+      "image": "./img/2.png",
+      "intro": "Anecdote : Le premier programmeur, Ada Lovelace",
+      "content": "Ada Lovelace, une mathématicienne du XIXe siècle, est considérée comme la première programmeuse de l'histoire. Elle a écrit des algorithmes pour la machine analytique de Charles Babbage, un précurseur de l'ordinateur moderne. Elle a même anticipé l'idée de programmes informatiques complexes.",
+      "conclusion": "Morale de l'histoire : Le futur de la technologie est façonné par ceux qui osent rêver et imaginer au-delà des limites de leur époque."
+    },
+    {
+      "number": 3,
+      "image": "./img/3.png",
+      "intro": "Projet : Crée un 'Hello World' en JavaScript",
+      "content": "Ton premier projet en JavaScript : Affiche un message de bienvenue sur la page web ! Utilise `console.log('Hello World!')` pour afficher le message dans la console.",
+      "conclusion": "Morale de l'histoire : Commencer par les bases est essentiel pour bâtir de grandes choses."
+    },
+    {
+      "number": 4,
+      "image": "./img/4.png",
+      "intro": "Pensée(s) du jour",
+      "content": "Le chemin du succès est pavé d'échecs. Chaque erreur est une occasion d'apprendre et de s'améliorer.",
+      "conclusion": "Ne crains pas les erreurs, elles sont le moteur de ton progrès."
+    },
+    {
+      "number": 5,
+      "image": "./img/5.png",
+      "intro": "Anecdote : Le 'bug' de Grace Hopper",
+      "content": "En 1947, Grace Hopper a trouvé un véritable insecte dans un ordinateur. Elle a écrit dans son carnet que c'était le 'bug' du système. Ce mot est depuis resté dans le vocabulaire de l'informatique pour désigner un défaut ou une erreur dans le code.",
+      "conclusion": "Morale de l'histoire : Parfois, les erreurs viennent de sources inattendues, mais elles peuvent être des opportunités d'amélioration."
+    },
+    {
+      "number": 6,
+      "image": "./img/6.png",
+      "intro": "Projet : Crée une page HTML simple",
+      "content": "Crée une page HTML avec un titre et un paragraphe. Tu peux commencer par cette structure de base : `<html> <head><title>Ma page</title></head> <body><h1>Bienvenue !</h1><p>C'est mon premier projet HTML !</p></body> </html>`",
+      "conclusion": "Morale de l'histoire : Le plus important est de commencer, chaque petit pas te rapproche de ton objectif."
+    },
+    {
+      "number": 7,
+      "image": "./img/7.png",
+      "intro": "Pensée du jour",
+      "content": "Il n'y a pas de secret pour réussir. Il suffit de persévérer, d'apprendre de ses erreurs et de rester curieux.",
+      "conclusion": "Morale de l'histoire : La persévérance et l'apprentissage continu sont la clé de tout succès."
+    },
+    {
+      "number": 8,
+      "image": "./img/8.png",
+      "intro": "Anecdote : Le premier virus informatique 'Creeper'",
+      "content": "Le premier virus informatique, Creeper, a été créé en 1971 par Bob Thomas. Plutôt que de causer des dommages, il affichait simplement : 'I’m the Creeper, catch me if you can!' Un virus sans malveillance, juste un test d'ARPANET.",
+      "conclusion": "Morale de l'histoire : Parfois, les premières expériences sont plus des tests que des menaces réelles."
+    },
+    {
+      "number": 9,
+      "image": "./img/9.png",
+      "intro": "Projet : Crée un bouton avec JavaScript",
+      "content": "Ajoute un bouton à ta page HTML et utilise JavaScript pour afficher une alerte lorsqu'on clique dessus. Exemple : `<button onclick='alert('Hello!')'>Clique ici</button>`.",
+      "conclusion": "Morale de l'histoire : Coder des interactions simples renforce ta compréhension des bases."
+    },
+    {
+      "number": 10,
+      "image": "./img/10.png",
+      "intro": "Pensée du jour",
+      "content": "Les difficultés sont des occasions déguisées. Chaque défi surmonté te rend plus fort et plus sage.",
+      "conclusion": "Morale de l'histoire : N'aie pas peur des obstacles, ils forgent ta détermination."
+    },
+    {
+      "number": 11,
+      "image": "./img/11.png",
+      "intro": "Projet : Crée une liste de tâches avec JavaScript",
+      "content": "Crée une page qui affiche une liste de tâches à faire. Permets à l'utilisateur d'ajouter de nouvelles tâches avec un champ de saisie et un bouton.",
+      "conclusion": "Morale de l'histoire : La gestion de projet commence par savoir organiser les petites choses."
+    },
+    {
+      "number": 12,
+      "image": "./img/12.png",
+      "intro": "Anecdote : Le langage 'COBOL' et sa longévité",
+      "content": "Le langage COBOL, qui date des années 1950, est toujours utilisé dans de nombreuses banques et systèmes gouvernementaux. Ce langage, bien que vieux, continue de fonctionner sans failles dans des applications critiques.",
+      "conclusion": "Morale de l'histoire : Certaines technologies, même anciennes, sont robustes et résistent à l'épreuve du temps."
+    },
+    {
+      "number": 13,
+      "image": "./img/13.png",
+      "intro": "Pensée du jour",
+      "content": "Les grandes réalisations commencent souvent par un simple pas. L'essentiel est de commencer, même si ce n'est qu'une petite étape.",
+      "conclusion": "Morale de l'histoire : N'attends pas d'être parfait pour commencer. Chaque début a sa valeur."
+    },
+    {
+      "number": 14,
+      "image": "./img/14.png",
+      "intro": "Projet : Crée une calculatrice basique en JavaScript",
+      "content": "Crée une petite calculatrice avec HTML, CSS et JavaScript. Elle doit pouvoir additionner deux nombres entrés par l'utilisateur.",
+      "conclusion": "Morale de l'histoire : Les petits projets renforcent ta capacité à assembler différents éléments du développement."
+    },
+    {
+      "number": 15,
+      "image": "./img/15.png",
+      "intro": "Anecdote : La naissance du Web",
+      "content": "Le World Wide Web a été inventé par Tim Berners-Lee en 1989 au CERN. Il voulait permettre aux chercheurs de partager des informations via un réseau hypertexte. Son invention a radicalement changé la façon dont le monde interagit avec l'information.",
+      "conclusion": "Morale de l'histoire : Un simple problème peut mener à une invention qui change le monde."
+    },
+    {
+      "number": 16,
+      "image": "./img/16.png",
+      "intro": "Pensée du jour",
+      "content": "Chaque erreur est une opportunité d'apprendre. C'est en forgeant qu'on devient forgeron.",
+      "conclusion": "Morale de l'histoire : Accepte tes erreurs, elles font de toi un meilleur programmeur."
+    },
+    {
+      "number": 17,
+      "image": "./img/17.png",
+      "intro": "Projet : Ajoute des effets CSS sur une image",
+      "content": "Crée une page avec une image et utilise CSS pour ajouter un effet de survol, par exemple changer la couleur ou la taille de l'image quand on passe la souris dessus.",
+      "conclusion": "Morale de l'histoire : Un peu de style transforme une page ordinaire en une expérience interactive."
+    },
+    {
+      "number": 18,
+      "image": "./img/18.png",
+      "intro": "Anecdote : Le premier programmeur à l'espace",
+      "content": "En 1969, avant que les astronautes ne marchent sur la Lune, ils ont dû suivre des instructions précises codées en langage machine. Les premières instructions de vol spatial étaient écrites par des programmeurs qui ont calculé la trajectoire et les opérations du module lunaire.",
+      "conclusion": "Morale de l'histoire : Le code a le pouvoir de réaliser des choses incroyables, même dans l'espace."
+    },
+    {
+      "number": 19,
+      "image": "./img/19.png",
+      "intro": "Pensée du jour",
+      "content": "Ce que tu fais aujourd'hui peut sembler insignifiant, mais chaque petit effort construit ton avenir.",
+      "conclusion": "Morale de l'histoire : Ne sous-estime jamais la puissance de l'effort quotidien."
+    },
+    {
+      "number": 20,
+      "image": "./img/20.png",
+      "intro": "Projet : Crée un formulaire de contact",
+      "content": "Crée un formulaire simple qui demande le nom, l'email et un message. Utilise HTML pour le formulaire et CSS pour lui donner un joli design.",
+      "conclusion": "Morale de l'histoire : Les formulaires sont essentiels pour la communication sur le web. Apprends à bien les concevoir."
+    },
+    {
+      "number": 21,
+      "image": "./img/21.png",
+      "intro": "Anecdote : L'importance du 'Debugging'",
+      "content": "Le processus de 'debugging' a été inventé dans les années 1940 par Grace Hopper. Elle a littéralement trouvé un insecte (bug) dans un ordinateur et a utilisé ce terme pour désigner les erreurs dans les programmes.",
+      "conclusion": "Morale de l'histoire : Le débogage est une étape essentielle dans le développement logiciel. Un code propre fait un programme solide."
+    },
+    {
+      "number": 22,
+      "image": "./img/22.png",
+      "intro": "Pensée du jour",
+      "content": "La confiance en soi est la première étape vers le succès. Crois en tes capacités et tu iras loin.",
+      "conclusion": "Morale de l'histoire : Tu es capable de réaliser de grandes choses, ne doute pas de toi."
+    },
+    {
+      "number": 23,
+      "image": "./img/23.png",
+      "intro": "Projet : Crée un jeu simple en JavaScript",
+      "content": "Crée un jeu basique comme un jeu de devinette ou un jeu de boutons où l'utilisateur doit cliquer pour gagner.",
+      "conclusion": "Morale de l'histoire : Les jeux sont un excellent moyen d'apprendre tout en s'amusant. Lance-toi !"
+    },
+    {
+      "number": 24,
+      "image": "./img/24.png",
+      "intro": "Joyeux Noël !",
+      "content": "Que cette période de fêtes soit remplie de paix, d'inspiration et de moments heureux. Souviens-toi : chaque jour est une nouvelle opportunité d'apprendre et de grandir.",
+      "conclusion": "Profite de chaque instant, même dans les moments les plus simples, et laisse la créativité guider ta route."
+    }
+  ]
+  

@@ -1,0 +1,84 @@
+body,html,main
+{
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+    width: auto;    
+}
+
+.day{
+    display: relative;
+    color:#700000;
+    left:0;
+    top:0;
+}
+.calendarItem
+{
+    width: 175px;
+    height: 175px;
+    margin-left:auto;
+    margin-right: auto;
+}
+header
+{
+    background-color:#700000;
+    padding: 2rem;
+    margin: 0;
+    color:white;
+    text-align: center;
+    h2 {
+        font-size: 10ch;
+    }
+
+    p {
+        font-size: 4ch;
+        color:white;
+    }
+}
+:modal {
+    background-color: beige;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    min-width: 50%;
+    min-height: 50%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    form{
+        padding-top: 5rem;
+        width:75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p{
+        text-align: left;
+        font-size: 4ch;
+        color:black;
+    }
+    h2
+    {
+        text-align: left;
+        display: absolute;
+        left:0;
+        top: 0;
+        font-size: 3rem;
+    }
+}
+.closeButtonModal
+{
+    position: absolute;
+    top:0;
+    right:0;
+    border: none;    
+    width:fit-content;
+    height: fit-content;    
+    padding-right:2rem;
+    font-size: 5rem;
+    color: black;
+    background:none;
+}  
+  
