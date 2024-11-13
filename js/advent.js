@@ -2,13 +2,14 @@
 window.onload = function()
 {
   const main = document.querySelector('main');
-  const today = new Date().getDate();
+  const date = new Date();
+  const todayMonth = date.getMonth()+1;
+  const todayDay = date.getDate();
   const nop = document.querySelector('#nop');
   let boxes = fetch('./js/boxes.json')
     .then(response => response.json())
     .then(data => {
-
-      console.log(today.toString());
+      console.log(todayMonth);
       for(let i = 0; i<data.length; i++) {
         let button = document.createElement('button');
         let img = document.createElement('img');
@@ -45,11 +46,14 @@ window.onload = function()
         main.appendChild(modal);
         console.log(button);
         button.addEventListener('click', () => {
-          console.log(day.innerText);
-          if( day.innerText> today)
+          if(todayMonth<12 || day.innerHTML > todayDay)
+          {
             nop.showModal();
+          }
           else
+          {
             modal.showModal();
+          }
         });
       }    
     })

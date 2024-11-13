@@ -9,16 +9,16 @@
     {
       "number": 2,
       "image": "./img/2.png",
-      "intro": "Anecdote : Le premier programmeur, Ada Lovelace",
+      "intro": "Le premier programmeur, Ada Lovelace",
       "content": "Ada Lovelace, une mathématicienne du XIXe siècle, est considérée comme la première programmeuse de l'histoire. Elle a écrit des algorithmes pour la machine analytique de Charles Babbage, un précurseur de l'ordinateur moderne. Elle a même anticipé l'idée de programmes informatiques complexes.",
       "conclusion": "Morale de l'histoire : Le futur de la technologie est façonné par ceux qui osent rêver et imaginer au-delà des limites de leur époque."
     },
     {
       "number": 3,
-      "image": "./img/3.png",
-      "intro": "Projet : Crée un 'Hello World' en JavaScript",
-      "content": "Ton premier projet en JavaScript : Affiche un message de bienvenue sur la page web ! Utilise `console.log('Hello World!')` pour afficher le message dans la console.",
-      "conclusion": "Morale de l'histoire : Commencer par les bases est essentiel pour bâtir de grandes choses."
+      "image": "./img/6.png",
+      "intro": "Projet : Crée une page HTML simple",
+      "content": "Crée une page HTML avec un titre et un paragraphe. Tu peux commencer par cette structure de base : `<html> <head><title>Ma page</title></head> <body><h1>Bienvenue !</h1><p>C'est mon premier projet HTML !</p></body> </html>`",
+      "conclusion": "Le plus important est de commencer, chaque petit pas te rapproche de ton objectif."
     },
     {
       "number": 4,
@@ -30,16 +30,16 @@
     {
       "number": 5,
       "image": "./img/5.png",
-      "intro": "Anecdote : Le 'bug' de Grace Hopper",
+      "intro": "Le 'bug' de Grace Hopper",
       "content": "En 1947, Grace Hopper a trouvé un véritable insecte dans un ordinateur. Elle a écrit dans son carnet que c'était le 'bug' du système. Ce mot est depuis resté dans le vocabulaire de l'informatique pour désigner un défaut ou une erreur dans le code.",
       "conclusion": "Morale de l'histoire : Parfois, les erreurs viennent de sources inattendues, mais elles peuvent être des opportunités d'amélioration."
     },
     {
       "number": 6,
-      "image": "./img/6.png",
-      "intro": "Projet : Crée une page HTML simple",
-      "content": "Crée une page HTML avec un titre et un paragraphe. Tu peux commencer par cette structure de base : `<html> <head><title>Ma page</title></head> <body><h1>Bienvenue !</h1><p>C'est mon premier projet HTML !</p></body> </html>`",
-      "conclusion": "Morale de l'histoire : Le plus important est de commencer, chaque petit pas te rapproche de ton objectif."
+      "image": "./img/3.png",
+      "intro": "Projet : Le jeu du JustePrix en javascript",
+      "content": "Ton premier projet en JavaScript : génère un nombre aléatoire entre 1 et 100, créee un formulaire coté HTML et demande au joueur un nombre (entre 1 et 100, évidement ! ), si le joueur trouve le bon résultat, ouvre une fenêtre modale et annonce lui sa victoire, sinon, dans la même fenêtre, dit lui si c'est plus ou si c'est moins.",
+      "conclusion": "Tu voulais peut être commencer par un 'Hello World ?' et bah c'est raté !"
     },
     {
       "number": 7,
@@ -51,7 +51,7 @@
     {
       "number": 8,
       "image": "./img/8.png",
-      "intro": "Anecdote : Le premier virus informatique 'Creeper'",
+      "intro": "Le premier virus informatique 'Creeper'",
       "content": "Le premier virus informatique, Creeper, a été créé en 1971 par Bob Thomas. Plutôt que de causer des dommages, il affichait simplement : 'I’m the Creeper, catch me if you can!' Un virus sans malveillance, juste un test d'ARPANET.",
       "conclusion": "Morale de l'histoire : Parfois, les premières expériences sont plus des tests que des menaces réelles."
     },
@@ -163,6 +163,13 @@
     {
       "number": 24,
       "image": "./img/24.png",
+      "intro": "Dernière ligne droite avant Noël !",
+      "content": "Il est temps de savourer un bon réveillon de noël en famille. Amuses toi bien !",
+      "conclusion": "Profite de chaque instant, même dans les moments les plus simples, et laisse la créativité guider ta route."
+    },
+    {
+      "number": 25,
+      "image": "./img/25.png",
       "intro": "Joyeux Noël !",
       "content": "Que cette période de fêtes soit remplie de paix, d'inspiration et de moments heureux. Souviens-toi : chaque jour est une nouvelle opportunité d'apprendre et de grandir.",
       "conclusion": "Profite de chaque instant, même dans les moments les plus simples, et laisse la créativité guider ta route."
