@@ -2,11 +2,13 @@
 window.onload = function()
 {
   const main = document.querySelector('main');
+  const today = new Date().getDate();
+  const nop = document.querySelector('#nop');
   let boxes = fetch('./js/boxes.json')
     .then(response => response.json())
     .then(data => {
-      console.log(data);  // Afficher le contenu du calendrier
 
+      console.log(today.toString());
       for(let i = 0; i<data.length; i++) {
         let button = document.createElement('button');
         let img = document.createElement('img');
@@ -24,7 +26,7 @@ window.onload = function()
         form.method='dialog';
         let closeButton = document.createElement('button');
         closeButton.innerText='X';
-        closeButton.className='closeButtonModal';
+        closeButton.className='close';
 
         let intro = document.createElement('h2');
         intro.innerText=data[i].intro;
@@ -43,16 +45,13 @@ window.onload = function()
         main.appendChild(modal);
         console.log(button);
         button.addEventListener('click', () => {
-          modal.showModal();
+          console.log(day.innerText);
+          if( day.innerText> today)
+            nop.showModal();
+          else
+            modal.showModal();
         });
       }    
     })
     .catch(error => console.error('Erreur lors du chargement du JSON', error));
-  let getModalButton = document.createElement('button');
-  const favDialog = document.getElementById('favDialog');
-  
-  showNumber.addEventListener('click', () => {
-    number.innerText = Math.floor(Math.random() * 1000);
-    favDialog.showModal();
-  });
 };

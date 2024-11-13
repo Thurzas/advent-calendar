@@ -68,7 +68,7 @@ header
         font-size: 3rem;
     }
 }
-.closeButtonModal
+.close
 {
     position: absolute;
     top:0;
