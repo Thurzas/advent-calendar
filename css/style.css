@@ -10,10 +10,10 @@ main
 }
 
 .day{
-    display: relative;
     color:#700000;
     left:0;
     top:0;
+    z-index: 999;
 }
 .calendarItem
 {
@@ -44,6 +44,7 @@ header
     border-radius: 5px;
     min-width: 50%;
     min-height: 50%;
+    max-width: 75%;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
@@ -62,8 +63,8 @@ header
     h2
     {
         text-align: left;
-        display: absolute;
-        left:0;
+        position: absolute;
+        left:1rem;
         top: 0;
         font-size: 3rem;
     }
