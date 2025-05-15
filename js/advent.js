@@ -1,12 +1,13 @@
 
+const date = new Date();
+let todayMonth = date.getMonth()+1;
+let todayDay = date.getDate();
+
 window.onload = function()
 {
   const main = document.querySelector('main');
-  const date = new Date();
-  const todayMonth = date.getMonth()+1;
-  const todayDay = date.getDate();
   const nop = document.querySelector('#nop');
-  let boxes = fetch('./js/boxes.json')
+  const boxes = fetch('./js/boxes.json')
     .then(response => response.json())
     .then(data => {
       console.log(todayMonth);
@@ -59,3 +60,12 @@ window.onload = function()
     })
     .catch(error => console.error('Erreur lors du chargement du JSON', error));
 };
+
+
+  function selectDay(day){
+    console.info(day.dataset.date);
+    let today = new Date(day.dataset.date);
+    //nb: getDay et getMonth donne des valeurs de tableau, donc il faut incrémenter pour avoir la bonne date.
+    todayDay = today.getDate();
+    todayMonth = today.getMonth()+1;
+  }

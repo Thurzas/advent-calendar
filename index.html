@@ -12,9 +12,20 @@
 </head>
 <body>
     <header>
+        <section>
+
+        </section>
         <h2> Ouvre toutes les cases avant Nöel !</h2>    
         <p>Challenge toi avec nos défis de Nöel, apprends en plus avec une anecdote ou encore souris avec une pensée positive. </p>
         <p>Tout ceci vous est offert avec la magie du JSON et du DOM ❤️</p>
+        <p> ce n'est pas encore la période de noël ? c'est pas grave, vous pouvez tester quand même,choisissez une date ici.</p>
+        <section id="select">
+            <button class="select_day" data-date="2024-12-01" onClick="selectDay(this)">1 décembre</button>
+            <button class="select_day" data-date="2024-12-02" onClick="selectDay(this)">2 décembre</button>
+            <button class="select_day" data-date="2024-12-03" onClick="selectDay(this)">3 décembre</button>
+            <button class="select_day" data-date="2024-12-25" onClick="selectDay(this)">25 décembre</button>
+        </section>
+
     </header>
     <main>
         <dialog id="nop">
