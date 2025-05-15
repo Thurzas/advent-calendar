@@ -104,3 +104,19 @@ header
     border-radius: 15px;
     cursor:pointer;
 }
+
+@media (max-width: 600px) {
+  .box {
+    width: 48%;
+  }
+  :modal{
+    p{
+        font-size: 27px;
+    }
+    h2
+    {
+        position: relative;
+        font-size: 32px;
+    } 
+  }
+}
